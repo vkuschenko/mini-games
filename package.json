@@ -1,0 +1,16 @@
+{
+  "name": "small-games",
+  "version": "0.0.1",
+  "description": "This is the repo that will contain implementations of different small games.",
+  "main": "index.js",
+  "scripts": {
+    "build-snake-lite": "browserify ./snake-lite/game.js -o ./examples/snake-lite/bundle.js -t [ babelify ]"
+  },
+  "author": "Victor Kuschenko <vkuschenko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0"
+  }
+}
