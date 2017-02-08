@@ -2,8 +2,12 @@
 
 ### Snake (lite)
 To run this game make netx steps:
-1. Checkout project with `git clone https://github.com/vkuschenko/mini-games.git`
-2. Make `cd ./mini-games`
-3. Run `npm run build-snake-lite`
-4. Open `./examples/snake-lite/index.html`
-5. Have fun!
+* Checkout project with `git clone https://github.com/vkuschenko/mini-games.git`
+* Go to project directory `cd ./mini-games`
+* Make sure you have `Node.js` installed
+* Run `npm install`
+* Run `npm run build-snake-lite`
+* Open `./examples/snake-lite/index.html`
+* Have fun!
+
+Or try it [here](https://vkuschenko.github.io/mini-games)
